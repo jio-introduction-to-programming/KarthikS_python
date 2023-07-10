@@ -2,61 +2,64 @@ def convert_to_int(x):
     '''
         Task-1 Convert x to int and return the result 
     '''
-    result = None # write your code here ! 
+    result = int(x) # write your code here ! 
     return result 
 
 def find_max_of_numbers(numbers):
     '''
         Task-2 Find and return the maximum number from the list numbers
     '''
-    result = None # write your code here ! 
+    result = max(numbers) # write your code here ! 
     return result 
 
 def get_char_from_num(num):
     '''
         Task-3 Get a character that corresponds to num in Unicode and return the result
     '''
-    result = None # write your code here ! 
+    result = chr(num) # write your code here ! 
     return result 
 
 def get_num_from_char(char):
     '''
         Task-4 Get a number that corresponds to char in Unicode and return the result
     '''
-    result = None # write your code here ! 
+    result = ord(char) # write your code here ! 
     return result 
 
 def calculate_sum_of_numbers(numbers):
     '''
         Task-5 Calculate and return the sum of numbers in the list numbers
     '''
-    result = None # write your code here ! 
+    result = sum(numbers) # write your code here ! 
     return result 
 
 def check_type_of_value(val):
     '''
         Task-6 Check and return the type of val
     '''
-    result = None # write your code here ! 
+    result = type(val) # write your code here ! 
     return result 
 
 def check_any_true_in_list(lst):
     '''
         Task-7 Check if any of the value in the list lst is True
     '''
-    result = None # write your code here ! 
+    result = any(lst) # write your code here ! 
     return result 
 
 def check_all_true_in_list(lst):
     '''
         Task-8 Check if all of the values in the list lst are True
     '''
-    result = None # write your code here ! 
+    result = all(lst) # write your code here ! 
     return result 
+
+from datetime import datetime
+import time
 
 def get_current_time():
     '''
         Task-9 Get and return the current time in seconds since the Epoch
     '''
-    result = None # write your code here ! 
+    result = time.time() # write your code here ! 
     return result 
