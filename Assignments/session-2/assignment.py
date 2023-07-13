@@ -61,5 +61,6 @@ def get_current_time():
     '''
         Task-9 Get and return the current time in seconds since the Epoch
     '''
-    result = time.time() # write your code here ! 
+    result = time.time
+    () # write your code here ! 
     return result 
